@@ -33,8 +33,8 @@ map.del("n", "<leader>K")
 map.del("n", "<leader>l")
 map.del("n", "<leader>L")
 
-map.set("n", "<S-tab>", "<cmd>bprevious<cr>", { desc = "Prev Buffer" })
-map.set("n", "<tab>", "<cmd>bnext<cr>", { desc = "Next Buffer" })
+-- map.set("n", "<S-tab>", "<cmd>bprevious<cr>", { desc = "Prev Buffer" })
+-- map.set("n", "<tab>", "<cmd>bnext<cr>", { desc = "Next Buffer" })
 map.set("n", "<C-n>", "<cmd>nohl<cr>", { desc = "Save File" })
 
 map.set("n", "<leader>cx", "<cmd>Trouble diagnostics<cr>", { desc = "File diagnostics" })
