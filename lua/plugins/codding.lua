@@ -55,5 +55,14 @@ return {
         keys = { { "<leader>cn", ":Navbuddy<cr>", desc = "Nvigation" } },
       },
     },
+    opts = {
+      servers = {
+        vtsls = {
+          settings = {
+            typescript = { preferences = { importModuleSpecifier = "relative" } },
+          },
+        },
+      },
+    },
   },
 }

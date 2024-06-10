@@ -1,6 +1,7 @@
 return {
   "folke/noice.nvim",
-  enabled = false,
+  -- enabled = false,
+  keys = false,
   -- keys = {
   --   { "<leader>sn", false },
   --   { "<leader>sna", false },
