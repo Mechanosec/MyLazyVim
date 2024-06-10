@@ -24,7 +24,7 @@ map.del("n", "<leader><tab>]")
 map.del("n", "<leader><tab>d")
 map.del("n", "<leader><tab>[")
 
--- map.del("n", "<leader>gG")
+map.del("n", "<leader>gG")
 map.del("n", "<leader>gf")
 map.del("n", "<leader>gB")
 map.del("n", "<leader>gL")
