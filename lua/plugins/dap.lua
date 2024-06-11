@@ -1,4 +1,38 @@
 return {
+  "rcarriga/nvim-dap-ui",
+  config = function(_, opts)
+    local dapui = require("dapui")
+
+    opts.layouts = {
+      {
+        elements = {
+          {
+            id = "scopes",
+            size = 0.75,
+          },
+          {
+            id = "breakpoints",
+            size = 0.25,
+          },
+        },
+        position = "right",
+        size = 70,
+      },
+      {
+        elements = {
+          {
+            id = "repl",
+            size = 1,
+          },
+        },
+        position = "bottom",
+        size = 10,
+      },
+    }
+
+    dapui.setup(opts)
+  end,
+
   -- "mfussenegger/nvim-dap",
   -- dependencies = {
   --   "mxsdev/nvim-dap-vscode-js",
