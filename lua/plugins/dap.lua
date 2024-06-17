@@ -8,15 +8,15 @@ return {
         elements = {
           {
             id = "scopes",
-            size = 0.75,
+            size = 0.80,
           },
           {
             id = "breakpoints",
-            size = 0.25,
+            size = 0.20,
           },
         },
         position = "right",
-        size = 70,
+        size = 75,
       },
       {
         elements = {
@@ -26,7 +26,7 @@ return {
           },
         },
         position = "bottom",
-        size = 10,
+        size = 7,
       },
     }
 
