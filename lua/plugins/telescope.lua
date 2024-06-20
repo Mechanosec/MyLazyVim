@@ -56,7 +56,7 @@ return {
       { "<leader>fg", false },
       { "<leader>fr", false },
       { "<leader>gc", false },
-      { "<leader>gs", false },
+      -- { "<leader>gs", false },
       { "<leader>s", false },
       { "<leader>sa", false },
       { "<leader>sb", false },
