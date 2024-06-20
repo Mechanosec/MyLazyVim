@@ -76,4 +76,7 @@ return {
       },
     },
   },
+  {
+    "mfussenegger/nvim-lint",
+  },
 }
