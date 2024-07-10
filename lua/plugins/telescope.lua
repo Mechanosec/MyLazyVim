@@ -87,7 +87,7 @@ return {
       local actions = require("telescope.actions")
 
       opts.defaults = {
-        file_ignore_patterns = { "node_modules" },
+        -- file_ignore_patterns = { "node_modules" },
         selection_strategy = "reset",
         sorting_strategy = "ascending",
         layout_strategy = "horizontal",
