@@ -1,6 +1,6 @@
 return {
   "nvimdev/dashboard-nvim",
-  enabled = false,
+  -- enabled = false,
   opts = {
     config = {
       center = false,
