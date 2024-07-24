@@ -52,7 +52,10 @@ return {
           "MunifTanjim/nui.nvim",
         },
         opts = { lsp = { auto_attach = true } },
-        keys = { { "<leader>cn", ":Navbuddy<cr>", desc = "Nvigation" } },
+        keys = {
+          { "<leader>cn", ":Navbuddy<cr>", desc = "Nvigation" },
+          { "<leader>cx", ":Trouble diagnostics<cr>", desc = "File diagnostics" },
+        },
       },
     },
     opts = {

@@ -8,7 +8,7 @@ map.del("n", "<leader>bb")
 map.del("n", "<leader>`")
 map.del("n", "<leader>bD")
 
--- map.del("n", "<leader>ww")
+-- map.del("n", "<leader>w")
 map.del("n", "<leader>wd")
 -- map.del("n", "<leader>w-")
 -- map.del("n", "<leader>w|")
@@ -35,6 +35,4 @@ map.del("n", "<leader>L")
 
 -- map.set("n", "<S-tab>", "<cmd>bprevious<cr>", { desc = "Prev Buffer" })
 -- map.set("n", "<tab>", "<cmd>bnext<cr>", { desc = "Next Buffer" })
-map.set("n", "<C-n>", "<cmd>nohl<cr>", { desc = "Save File" })
-
-map.set("n", "<leader>cx", "<cmd>Trouble diagnostics<cr>", { desc = "File diagnostics" })
+map.set("n", "<C-n>", "<cmd>nohl<cr>", { desc = "Disable highlight" })
